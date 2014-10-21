@@ -14,7 +14,7 @@ from lino.core.choicelists import Choice, ChoiceList
 class YesNo(ChoiceList):
     """
     Used e.g. for table parameters. TODO: write usage example.
-    Änderung.
+    Änderungen
 
 
     """
@@ -67,4 +67,3 @@ add = PeriodEvents.add_item
 add('10', _("Started"), 'started')
 add('20', _("Active"), 'active')
 add('30', _("Ended"), 'ended')
-
